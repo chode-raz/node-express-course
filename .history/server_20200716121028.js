@@ -14,7 +14,6 @@ app.get('/users', function (req, res) {
         users: mockUserData
     })
 })
-
 app.listen(8001, function () {
     console.log("server is running")
 })
